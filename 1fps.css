@@ -1,0 +1,24 @@
+.navbar ul li{ 
+    display: inline;
+    padding: 20px
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    
+}
+.navbar label{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .navbar label{
+        display: block;
+    }
+        .navbar ul{
+            display: none;
+        }
+
+    }
+    
